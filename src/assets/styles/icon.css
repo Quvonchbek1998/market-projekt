@@ -1,0 +1,37 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.icon-password-close {
+  mask-image: url("../icon/Password_lock.svg");
+  -webkit-mask-image: url("../icon/Password_lock.svg");
+}
+.icon-password-open {
+  mask-image: url("../icon/Password__open.svg");
+  -webkit-mask-image: url("../icon/Password__open.svg ");
+}
+.icon-edit {
+  mask-image: url("../icon/edit.svg");
+  -webkit-mask-image: url("../icon/edit.svg ");
+}
+.icon-delete {
+  mask-image: url("../icon/delete.svg");
+  -webkit-mask-image: url("../icon/delete.svg ");
+}
+.icon-down {
+  mask-image: url("../icon/arrow-down.svg");
+  -webkit-mask-image: url("../icon/arrow-down.svg ");
+}
+.icon-up {
+  mask-image: url("../icon/arrow-up.svg");
+  -webkit-mask-image: url("../icon/arrow-up.svg ");
+}
